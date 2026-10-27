@@ -1,0 +1,113 @@
+.auth-details-container {
+  max-width: 500px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 24px 28px;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.auth-details-header {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #f1f5f9;
+  padding-bottom: 10px;
+}
+
+.auth-details-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.auth-details-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+}
+
+.auth-details-label {
+  color: #64748b;
+  font-weight: 500;
+}
+
+.auth-details-value {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.auth-details-badge {
+  display: inline-block;
+  background-color: #dcfce7;
+  color: #15803d;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 9999px;
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+
+.auth-details-signout-btn {
+  margin-top: 15px;
+  padding: 10px 16px;
+  background-color: #ef4444;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  align-self: flex-start;
+}
+
+.auth-details-signout-btn:hover {
+  background-color: #dc2626;
+}
+
+.auth-details-loggedout {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #64748b;
+}
+
+.auth-details-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.auth-details-btn-primary {
+  padding: 8px 16px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.auth-details-btn-primary:hover {
+  background-color: #2563eb;
+}
+
+.auth-details-btn-secondary {
+  padding: 8px 16px;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.auth-details-btn-secondary:hover {
+  background-color: #f1f5f9;
+}
